@@ -5,4 +5,4 @@ st.write(x, 'squared is', x*x)
 
 st.sidebar.title("This is written inside the sidebar")
 st.sidebar.button("Click")
-st.sidebar.radio("Pick your gender", ["Male"], ["Female"])
+st.sidebar.radio("Pick your gender", ["Male", "Female"])
