@@ -14,3 +14,7 @@ container.write("This is written inside the container")
 st.write("This is written outside the container")
 
 # bar = Barchart
+rand = np.random.normal(1,2,size = 20)
+fig, ax = plt.subplots()
+ax.hist(rand, binx = 15)
+st.pyplot(fig)
